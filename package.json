@@ -1,0 +1,28 @@
+{
+  "name": "anbidev-blog",
+  "version": "1.0.0",
+  "description": "just an make ordinary",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^1.0.4",
+    "string": "^3.3.3",
+    "toml": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alifianadexe/indexer.git"
+  },
+  "keywords": [
+    "indexer"
+  ],
+  "author": "adexe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alifianadexe/indexer/issues"
+  },
+  "homepage": "https://github.com/alifianadexe/indexer#readme"
+}
