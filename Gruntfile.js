@@ -2,7 +2,7 @@
 var toml = require("toml");
 var S = require("string");
 
-var CONTENT_PATH_PREFIX = "../anbidev-blog/content/tutorials";
+var CONTENT_PATH_PREFIX = "../anbidev-blog/content/blogs";
 var SITE_IDX_DEST = "../anbidev-blog/static/js/pindex.json";
 
 module.exports = function(grunt) {
