@@ -41,7 +41,6 @@ module.exports = function(grunt) {
             return {
                 title: pageName,
                 href: href,
-                content: S(content).trim().stripTags().stripPunctuation().s
             };
         };
 
@@ -67,13 +66,12 @@ module.exports = function(grunt) {
 				}
 			}
 
-
             // Build Lunr index for this page
             pageIndex = {
                 title: frontMatter.title,
                 tags: frontMatter.tags,
+                categories: frontMatter.categories,
                 href: href,
-                content: S(content[2]).trim().stripTags().stripPunctuation().s
             };
 
             return pageIndex;
